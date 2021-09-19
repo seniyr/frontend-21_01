@@ -1,0 +1,40 @@
+.option {
+  margin: 10px;
+}
+.option {
+  background-color: rgb(158, 84, 226);
+  margin: 30px;
+  padding: 30px;
+}
+
+.option:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chosen_option {
+  background-color: greenyellow;
+}
+
+.questionnaire {
+  height: 100%;
+  margin: 0;
+}
+
+#nextbtn {
+  left: 40%;
+
+}
+
+#prevbtn {
+  right: 40%;
+}
+
+#donebtn {
+  left: 40%;
+}
